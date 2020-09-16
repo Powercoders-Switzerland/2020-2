@@ -1,0 +1,10 @@
+pushd and popd commands are a means of fast and efficient bookmarking of directories.
+with cd you usually navigate through directories, but you have to remember the paths and they can be quite long. 
+You use pushd like cd to move into a directory, e.g. $ pushd <directory-path>
+Additionally to moving into the directory, the path of it is added on top of the stack. Think of the stack as a stack of papers.
+pushd notes the directory on a new paper und puts it on top of the stack. 
+popd takes the first paper from the top of that stack, reads it and moves to that directoy. 
+You can access any index in that stack by adding +number to it, e.g. pushd +2 adds a paper 2 sheets down from the top.
+popd +10 removes the tenth sheet in the stack counted from the top. You can also count from the bottom by using -x
+
+

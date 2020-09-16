@@ -1,0 +1,1 @@
+To delete a folder in CLI, you use rmdir for an empty one and rm -r for one with files in it.
