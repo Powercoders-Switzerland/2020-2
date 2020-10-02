@@ -1,0 +1,71 @@
+Question 2
+===========
+Given a string s containing some parentheses '(', ')', '[', ']' 
+check that each opening parenthesis is also closed in the right order. 
+The string can also have other text in it.
+
+test cases: 
+===========
+Input: s = "(hour)of[code]"
+Output: true
+
+Input: s = "()text"
+Output: true
+
+Input: s = "("
+Output: 
+
+Input: s = "([)]"
+Output: false
+
+Constraints
+============
+there must be at least 1 bracket
+s cannot be empty or null
+
+
+input = s 
+process = iterate through string, put a found bracketto array, ignore text in between 
+output = true / false
+
+
+
+
+
+Begin CheckForBalancedParantheses
+    Initialize s as string ""
+    Initialize brackets as array ["(",")", "[","]"]
+    Initialize tempStack as array []
+    Initialize tempStrArray as array []
+    Initialize counter as integer 0
+
+    Prompt "Please enter a string with paratheses like () or [] in it. They can also be nested" as s 
+
+    Convert s to tempStrArray where each character is an item in the array
+
+    Begin Loop
+        Foreach item in tempStrArray 
+            if item in array brackets 
+                push to tempStack
+            end if
+        End Foreach
+    End Loop
+
+    Begin Loop
+        While counter < (length of tempStack / 2)
+            Increment counter
+
+            Initialize start as the value in tempStack at the position (index) of counter 
+
+            Initialize end as the value in tempStack at the position (index) of (length of tempStack - counter)
+                   
+            If start == "(" AND end == ")"
+                continue
+            Else If start == "[" AND end == "]"
+                continue
+            Else
+                return false
+            End If
+        End While
+    End Loop
+End CheckForBalancedParantheses

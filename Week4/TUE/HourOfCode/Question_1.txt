@@ -1,0 +1,72 @@
+Question 1
+==========
+Which digit appears most?
+Given a number, return the digit (single number) which appears most often in it. In case of a tie, return the highest number.
+
+
+test cases
+==========
+Input: 63332
+Output: 3
+
+Input: 10000000
+Output: 0
+
+Input: 123454321
+Output: 4
+
+Input: -4443
+Output: 4
+
+
+Constraints
+===========
+integers allowed, also negative (ignore and turn to positive)
+has to be integer only, no string
+if tie, bigger number wins
+
+
+
+input = integer (positive or negatve)
+process = check if integer, split to digits, loop through digits and incremenet counter
+output = digit which appears most and is higher than its ties
+
+
+Begin WhichDigitAppearsMost
+    Initialize input as string ""
+    Initialize inputArray as array []
+    Initialize counter as array []
+    Initialize output as integer 0
+    Initialize temp as integer 0
+
+    Prompt "Please input a number with several digits" as input
+
+    If input is not empty
+        Split input to inputArray where each character/digit of input is an item in inputArray
+
+        Begin Loop
+            Foreach item in inputArray
+                If item is a digit
+                    counter[item]++;
+                End If
+            End Foreach
+        End Loop
+
+        Sort counter by index (usually automatically)
+
+        Begin Loop
+            Foreach item in counter                
+                If value of item >= temp
+                    output = index of item
+                End if
+                temp = value of item
+            End Foreach
+        End Loop
+
+        Display "The digit which most appears is " + output
+
+    Else
+        Go back to line 41
+    End If
+
+End WhichDigitAppearsMost

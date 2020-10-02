@@ -1,0 +1,66 @@
+Question 3
+==========
+Reverse a number: given a number, reverse its digits.
+
+
+test cases
+==========
+Input: 1234
+Output: 4321
+
+Input: 100000000
+Output: 1
+
+Input: -321
+Output: -123
+
+
+
+Constraints
+===========
+only integers allowed, also negative
+has to be integer only, no string
+leading 0 have to be removed
+
+
+
+input = integer (positive or negative)
+process = remove the last digit from the input number and add it to the output until the input number is gone
+output = integer in reversed order (positive or negative)
+
+
+Begin ReverseNumber
+    Initialize input as integer 0
+    Initialize inputArray as array []
+    Initialize output as string ""
+    Initialize temp as integer 0
+
+    Prompt "Please input a number with several digits. Only integers are allowed" as input
+
+    If input is not empty and is an integer
+        Split input to inputArray where each digit of input is an item in inputArray
+
+        If input starts with a dash (is negative)
+            ouput = "-";
+        End If.
+
+        Begin Loop
+            While length of inputArray >= 0
+                temp = pop last item of inputArray
+                If temp is a digit and > 0
+                    output = output + temp 
+                End If
+            End While
+        End Loop
+
+        If output is not empty
+            Display "The number in reverse " + output
+        Else
+            Display "There was a problem reversing your input. Please try again"
+            Go back to line 41
+        End If
+    Else
+        Go back to line 41
+    End If
+
+End ReverseNumber
