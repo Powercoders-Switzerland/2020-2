@@ -1,6 +1,6 @@
 Today's hour of code: 
 ==================
-Write pseudocode that solves the following problems.  Please submit your solutions in the Google Classroom latest 3pm.
+Write pseudocode that solves the following problems.  Please submit your solutions in the Google Classroom latest 3pm.<br>
 You need to do two of the three questions, you can decide which two you want to do. If you want to do the third one it's up to you, but it's for extra credit.
 ------------------------------------------------------------------------------------------------------------------------------------------
 Question 1: Which digit appears most?
