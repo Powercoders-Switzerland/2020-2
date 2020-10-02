@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=MBpV2uX0nZw<br>
 https://www.youtube.com/watch?v=itn09C2ZB9Y<br>
 https://youtu.be/29deL9MFfWc<br>
 
-https://exercism.io/<br>
+https://exercism.io/tracks/javascript<br>
 https://projecteuler.net/<br>
 
 https://www.samanthaming.com/<br>
