@@ -14,12 +14,15 @@ https://web.dev/one-line-layouts/
 https://www.linkedin.com/learning/html-essential-training-4/what-is-html
 https://piccalil.li/tutorials/0/
 
+https://www.freecodecamp.org/learn/
+https://javascript.info/
 
 https://chrisdixon.io/p/javascript-fun-build-a-music-player-app
 https://chrisdixon.io/p/javascript-fun-build-a-number-match-game
 https://chrisdixon.io/p/javascript-fun-build-a-photo-editor-app
 https://chrisdixon.io/p/javascript-fun-build-a-tip-calculator
 https://chrisdixon.io/p/javascript-fun-build-a-guess-the-number-game
+
 https://javascript30.com/
 https://medium.com/@kevinsimper/47-simple-javascript-apps-you-can-make-in-a-day-98f5207ca2e1
 https://blog.bitsrc.io/15-app-ideas-to-build-and-level-up-your-coding-skills-28612c72a3b1
