@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=arMgwKY52Bs<br>
 https://www.youtube.com/watch?v=MBpV2uX0nZw<br>
 https://www.youtube.com/watch?v=itn09C2ZB9Y<br>
 https://youtu.be/29deL9MFfWc<br>
+https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw<br>
+https://thecodingtrain.com/<br>
 
 https://exercism.io/tracks/javascript<br>
 https://projecteuler.net/<br>
