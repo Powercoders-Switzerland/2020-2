@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp newsletter example</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main>
+        <h1>Newsletter</h1>
+        <h2>Register for our newsletter and get weekly the latest news and blog posts directly into your inbox.</h2>    
+        <form action="index.html" method="post">
+            <fieldset>      
+
+                <label for="FirstName">First name</label>
+                <input class="list" type="text" name="FirstName" value="" required>
+                <span class="error-only"><svg xmlns="http://www.w3.org/2000/svg" class="si-glyph-circle-error">
+                    <use xlink:href="img/sprite.svg#si-glyph-circle-error"></use>
+                </svg></span>
+                
+                
+                <label for="LastName">Last name</label>
+                <input class="list" type="text" name="LastName" value="" required>
+                <span class="error-only"><svg xmlns="http://www.w3.org/2000/svg" class="si-glyph-circle-error">
+                    <use xlink:href="img/sprite.svg#si-glyph-circle-error"></use>
+                </svg></span>  
+                
+                <label for="MailG">Email</label>
+                <input class="list" type="email" name="MailG" value="" required>
+                <span class="error-only"><svg xmlns="http://www.w3.org/2000/svg" class="si-glyph-circle-error">
+                    <use xlink:href="img/sprite.svg#si-glyph-circle-error"></use>
+                </svg></span>                    
+                
+                <label for="Sprache">Language</label>
+                <ul role="group" aria-labelledby="Sprache" class="switch three">
+                    <li>
+                        <input type="radio" name="Sprache" value="deutsch" id="SpracheDE" required checked="">
+                        <label for="SpracheDE">de</label>
+                        <span class="error-only"><svg xmlns="http://www.w3.org/2000/svg" class="si-glyph-circle-error">
+                            <use xlink:href="img/sprite.svg#si-glyph-circle-error"></use>
+                        </svg></span>
+                    </li>
+                    <li>
+                        <input type="radio" name="Sprache" value="französisch" id="SpracheFR">
+                        <label for="SpracheFR">fr</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="Sprache" value="english" id="SpracheEN">
+                        <label for="SpracheEN">en</label>
+                    </li>
+                </ul>
+                
+                
+                <button type="submit">Register</button>
+                
+            </fieldset>            
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
